@@ -1,0 +1,15 @@
+a= int(input("enter first number"))
+b=int(input("enter secound number"))
+print("press 1 for plus")
+print("press 2 for minuse")
+print("press 3 for division")
+print("press 4 for multiplication")
+c=int(input("chose any one"))
+if(c==1):
+    print(a+b)
+if(c==2):
+    print(a-b)
+if(c==3):
+    print(a//b)
+if(c==4):
+    print(a*b)
