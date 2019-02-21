@@ -1,0 +1,13 @@
+name=["ankit","amir","deepak"]
+rollno=["aa","aaa","ddd"]
+add=["bhopal","shehor","indor"]
+password=["11","22","33"]
+b=int(input("enter passsword="))
+if(b==11):
+    print("name",name[0],"rollno",rollno[0],"password",password[0],"add",add[0])
+elif(b==22):
+    print("name",name[1],"rollno",rollno[1],"password",password[1],"add",add[1])
+elif(b==33):
+    print("name",name[2],"rollno",rollno[2],"password",password[2],"add",add[2])
+else:                                                                
+    print("password is not correct")
