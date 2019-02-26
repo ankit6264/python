@@ -1,0 +1,7 @@
+a =int(input("enter number"))
+rev = 0
+while(a!=0):
+    i = a%10
+    rev =rev*10+i
+    a=a//10
+print("after revers number",rev)
