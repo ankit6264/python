@@ -1,0 +1,21 @@
+a = int(input("enter a number"))
+b = int(input("enter secound number"))
+c = int(input("enter thard number"))
+if(a>b)and(a>c):
+    print("a is greater number")
+    if(b>c):
+        print("b is secound greater number")
+    else:
+         print("c is secound greater number ")
+elif(b>a)and(b>c):
+    print("b is greater number")
+    if(a>c):
+        print("a is second gerater number")
+    else:
+        print("c is secound greater number")
+else:
+    print("c is greater number")
+    if(a>b):
+        print("a is second gerater number")
+    else:
+        print("b is second gerater number")
