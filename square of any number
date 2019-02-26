@@ -1,0 +1,7 @@
+num=int(input("enter number"))
+sq=0
+while(num!=0):
+    i = num%10
+    sq = sq+i*i
+    num = num //10
+    print("after square",sq)
