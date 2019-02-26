@@ -1,0 +1,16 @@
+a=int(input("enter 1st number"))
+b=int(input("enter 2nd number"))
+c=int(input("enter 3rd number"))
+d=int(input("enter 4th number"))
+e=int(input("enter 5th number"))
+if(a>b)and(a>c)and(a>d)and(a>e):
+    print("a is grater number")
+elif(b>a)and(b>c)and(b>d)and(b>e):
+    print("b is grater number")
+elif(c>a)and(c>b)and(c>d)and(c>e):
+    print("c is greater number")
+elif(d>a)and(d>b)and(d>c)and(d>e):
+    print("d is greater number")
+else:
+    print("e is greater")
+  
